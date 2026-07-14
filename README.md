@@ -75,7 +75,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/McMillman/s-ui/main/install.sh
 ```sh
 VERSION=v1.5.2 && bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/$VERSION/install.sh) $VERSION
 ```
-或者
+or
 ```sh
 bash <(curl -Ls https://raw.githubusercontent.com/McMillman/s-ui/main/install.sh) v1.5.2
 ```
