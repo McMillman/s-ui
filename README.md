@@ -73,11 +73,11 @@ bash <(curl -Ls https://raw.githubusercontent.com/McMillman/s-ui/main/install.sh
 **Step 1:** To install your desired legacy version, add the version to the end of the installation command. e.g., ver `v1.5.2`:
 
 ```sh
-VERSION=v1.5.2 && bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/$VERSION/install.sh) $VERSION
+bash <(curl -Ls https://raw.githubusercontent.com/McMillman/s-ui/main/install.sh) v1.5.2
 ```
 or
 ```sh
-bash <(curl -Ls https://raw.githubusercontent.com/McMillman/s-ui/main/install.sh) v1.5.2
+VERSION=1.5.2 && bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/$VERSION/install.sh) $VERSION
 ```
 
 ## Manual installation
